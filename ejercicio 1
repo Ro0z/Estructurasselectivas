@@ -1,0 +1,12 @@
+print("-------------------------------------------------------")
+print("Ejercicio11: VERIFICAR SI UN ALUMNO ESTA APROBADO") 
+print("-------------------------------------------------------")
+#Entradas
+CAL = float( input("Ingrese Calificacion: "))
+#Salida
+print("\nSALIDA: ") 
+print("-------------------------------------------------------")
+if CAL > 10 : 
+    print("Aprobado")
+elif CAL < 10 :
+    print("Desaprobado")
