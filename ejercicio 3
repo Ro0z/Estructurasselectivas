@@ -1,0 +1,13 @@
+"Decoracion: Nombre del Algoritmo"
+print(" ") 
+print("Ejercicion: VERIFICAR SI EL ANIO ES BISIESTO.") 
+print("")
+#Entradas
+anio = int( input("Ingrese anio: "))
+#Salida
+print("\nSALIDA: ") 
+print("")
+if (anio % 400 == 0) or (anio % 4 == 0) and (anio % 100 != 0):
+    print("El anio es BISIESTO") 
+else:
+    print("El anio NO es BISIESTO")
