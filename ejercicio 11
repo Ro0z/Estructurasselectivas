@@ -1,0 +1,9 @@
+print("") 
+print("Ejercicio4: DETERMINAR LA SALIDA.") 
+print("")
+print("Introduce un numero:")
+N = int( input())
+while N > 0 : 
+    RESTO = N % 10
+    print(RESTO)
+    N = N // 10 
