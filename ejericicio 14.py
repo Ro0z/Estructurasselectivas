@@ -1,14 +1,9 @@
-print("") 
-print("Complemento12: IMPRIMIR PARES Y SUS CUBOS.") 
-print("")
-#Entradas
-#Inicializar
-i=2
- #Proceso
+print(" ") 
+print("IMPRIMIR PARES Y SUS CUBOS.") 
+print(" ")
+i= 2
 while i <= 20 : 
-    if i%2 == 0 :
-        p = i**3
-        print("El cubo de", i, "es:", p)
-i=i+1
-print("\nSALIDA: ") 
-print("")
+    if i % 2 == 0 :
+        p = i ** 3
+        print("El cubo de",i, "es:",p)
+i = i + 1
